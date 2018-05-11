@@ -1,0 +1,7 @@
+base:
+  version: 1.x
+  css:
+    theme:
+      assets/css/learning.styles.css: {}
+  js:
+    assets/js/scripts.js: {scope: footer, minified: true}
