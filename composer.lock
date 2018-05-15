@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5746d9a94845e77980da02f7a072d6e9",
+    "content-hash": "2ac5a93540caaa28820e2f426b2cf89e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2040,6 +2040,60 @@
             "homepage": "https://www.drupal.org/project/features",
             "support": {
                 "source": "http://cgit.drupalcode.org/features"
+            }
+        },
+        {
+            "name": "drupal/radix",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/radix",
+                "reference": "8.x-3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/radix-8.x-3.2.zip",
+                "reference": "8.x-3.2",
+                "shasum": "f230ac292ca84d684b377381cf309c05f19a84cf"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.2",
+                    "datestamp": "1519625885",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Arshad Chummun",
+                    "homepage": "http://arshad.io",
+                    "email": "arshad@chummun.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "dsnopek",
+                    "homepage": "https://www.drupal.org/user/266527"
+                }
+            ],
+            "description": "Radix is a base theme for Drupal. It has Bootstrap, Sass, Gulp, BrowserSync and Font Awesome built-in.",
+            "homepage": "https://www.drupal.org/project/radix",
+            "support": {
+                "source": "http://cgit.drupalcode.org/radix",
+                "issues": "https://www.drupal.org/project/issues/radix"
             }
         },
         {
