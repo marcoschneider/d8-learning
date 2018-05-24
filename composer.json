@@ -20,6 +20,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.23",
+        "drupal/bootstrap": "^3.11",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.3",
         "drupal/features": "^3.7",
