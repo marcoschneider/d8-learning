@@ -1,19 +1,12 @@
-#header{
-  background: white none;
-  box-shadow: 0 1px 8px 0 rgba(0,0,0,0.5);
-  height: 80px;
+#navbar{
 
-  .region-header{
+  .navbar-header .region-navigation{
 
-    #block-megencool-branding{
+    .logo{
+      display: inline;
 
-      .site-logo{
-
-        height: 100%;
-
-        img{
-          width: 5%;
-        }
+      img{
+        width: 5%;
       }
     }
   }
