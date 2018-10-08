@@ -1,0 +1,5 @@
+<?php
+
+function megencool_views_pre_render(&$view) {
+
+}
