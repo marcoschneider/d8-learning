@@ -1,0 +1,5 @@
+name: 'DL Test'
+type: module
+description: 'Test modul'
+package: 'DL'
+core: 8.x
