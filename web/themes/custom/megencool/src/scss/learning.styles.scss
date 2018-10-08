@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import "helpers/variables";
+@import "helpers/mixins";
 @import "base/globals";
 @import "components/navbar";
 @import "layout/forms";
 @import "layout/containers";
+@import "layout/footer";
+@import "pages/frontpage";

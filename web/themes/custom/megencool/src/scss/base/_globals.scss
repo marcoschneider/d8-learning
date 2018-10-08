@@ -5,3 +5,9 @@
 body{
   margin-top: 0;
 }
+
+a{
+  color: $third-primary-color;
+  text-decoration: none;
+  @include color-transition($first-primary-color);
+}

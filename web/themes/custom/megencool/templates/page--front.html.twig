@@ -13,7 +13,7 @@
       {% if not navbar_attributes.hasClass(container) %}
         <div class="container-fluid">
       {% endif %}
-      <div class="navbar-header">
+      <nav class="navbar navbar-default">
         {{ page.navigation }}
         {# .btn-navbar is used as the toggle for collapsed navbar content #}
         {% if page.navigation_collapsible %}
@@ -24,7 +24,7 @@
             <span class="icon-bar"></span>
           </button>
         {% endif %}
-      </div>
+      </nav>
 
       {# Navigation (collapsible) #}
       {% if page.navigation_collapsible %}
@@ -90,7 +90,7 @@
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
-          {{ page.content }}
+          {{ page.content|without('megencool_page_title') }}
         {% endblock %}
       </section>
 
